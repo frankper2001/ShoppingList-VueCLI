@@ -20,11 +20,16 @@ header img {
 }
 
 .card-body {
-	max-width: 60%;
-	text-transform: capitalize;
+	max-width: 70%;
+	padding: 5px 18px;
+	color: #444;
+
 }
 
-span.material-icons {
+.card-body h3:first-letter {
+	text-transform: capitalize;
+}
+.material-icons {
 	font-size: 25px;
 }
 
@@ -33,7 +38,7 @@ span.material-icons {
 }
 
 .collapse i {
-	color: #666;
+	color: #555;
 }
 
 .collapse button {
@@ -61,6 +66,24 @@ span.material-icons {
 	justify-content: space-between;
 }
 
-.card-body {
-	padding: 10px 20px;
+.card-header h2 {
+	font-size: 20px;
 }
+
+.card-body {
+	
+}
+
+#app {
+	font-family: futura, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: #2c3e50;
+	margin-top: 20px;
+  }
+  img {
+	margin-bottom: 10px;
+	border-radius: 100px;
+	box-shadow: 4px 4px 6px 1px #999;
+  }

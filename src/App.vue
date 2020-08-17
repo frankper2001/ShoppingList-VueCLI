@@ -22,17 +22,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: futura, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 20px;
-}
-img {
-  margin-bottom: 10px;
-  border-radius: 100px;
-  box-shadow: 4px 4px 6px 1px #999;
-}
+
 </style>

@@ -3,7 +3,7 @@
 		<div class="accordion" id="accordionList">
 			<div class="card card-pendientes">
 				<div class="card-header bg-danger text-white py-0 pl-2" id="headingOne">
-					<h2 class="mb-0">Pending</h2>
+					<h2 class="mt-2">Pending</h2>
 
 					<button
 						class="btn btn-sm btn-link"
@@ -13,7 +13,7 @@
 						aria-expanded="true"
 						aria-controls="collapseOne"
 					>
-						<i class="material-icons mb-0">menu</i>
+						<i class="material-icons mt-1">menu</i>
 					</button>
 				</div>
 				<div
@@ -23,7 +23,7 @@
 					data-parent="#accordionList"
 				>
 					<div class="card-body mr-auto ">
-						<h3 class="float-left  pl-2">Item 1</h3>
+						<h3 class="float-left  pl-1">esta es una frase de prueba</h3>
 					</div>
 					<div>
 						<i class="material-icons">arrow_drop_down</i>
@@ -39,7 +39,7 @@
 					class="card-header bg-primary text-white py-0 pl-2"
 					id="headingTwo"
 				>
-					<h2 class="mb-0">In Progress</h2>
+					<h2 class="mt-2">In Progress</h2>
 
 					<button
 						class="btn btn-sm btn-link"
@@ -49,7 +49,7 @@
 						aria-expanded="true"
 						aria-controls="collapseTwo"
 					>
-						<i class="material-icons mb-0">menu</i>
+						<i class="material-icons mt-1">menu</i>
 					</button>
 				</div>
 				<div
@@ -59,7 +59,7 @@
 					data-parent="#accordionList"
 				>
 					<div class="card-body mr-auto ">
-						<h3 class="float-left  pl-2">Item 2</h3>
+						<h3 class="float-left  pl-1">Item 2</h3>
 					</div>
 					<div>
 						<i class="material-icons">arrow_drop_down</i>
@@ -75,7 +75,7 @@
 					class="card-header bg-success text-white py-0 pl-2"
 					id="headingThree"
 				>
-					<h2 class="mb-0">Completed</h2>
+					<h2 class="mt-2">Completed</h2>
 
 					<button
 						class="btn btn-sm btn-link"
@@ -85,7 +85,7 @@
 						aria-expanded="true"
 						aria-controls="collapseThree"
 					>
-						<i class="material-icons mb-0">menu</i>
+						<i class="material-icons mt-1">menu</i>
 					</button>
 				</div>
 				<div
@@ -95,7 +95,7 @@
 					data-parent="#accordionList"
 				>
 					<div class="card-body mr-auto ">
-						<h3 class="float-left  pl-2">Item 3</h3>
+						<h3 class="float-left  pl-1">Item 3</h3>
 					</div>
 					<div>
 						<i class="material-icons">arrow_drop_down</i>
