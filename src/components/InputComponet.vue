@@ -45,7 +45,7 @@
 
 <script>
 	export default {
-		name: 'InputComp',
+		name: 'InputComp'
 	};
 </script>
 

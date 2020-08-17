@@ -1,14 +1,12 @@
 <template>
   <div class="container" id="app">
-    <!-- <img alt="App logo" src="./assets/images/03.png"> -->
-    <HeaderComp msg="Hola mundo"/>
+    <HeaderComp/>
     <InputComp/>
     <ListComp/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
 import HeaderComp from './components/HeaderComponent.vue';
 import InputComp from './components/InputComponet.vue';
 import ListComp from './components/ListsComponent.vue'
@@ -16,7 +14,6 @@ import ListComp from './components/ListsComponent.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     HeaderComp,
     InputComp,
     ListComp

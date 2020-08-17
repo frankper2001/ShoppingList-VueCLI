@@ -16,7 +16,7 @@
 
 <script>
 	export default {
-		name: 'HeaderComp',
+		name: 'HeaderComp'
 		
 	};
 </script>
