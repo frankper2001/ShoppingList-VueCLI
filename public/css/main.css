@@ -1,3 +1,66 @@
-#app {
-	
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+header img {
+	height: 35px;
+	margin-left: 5px;
+	margin-right: 5px;
+	opacity: 0.9;
+}
+
+.card .card-header h2 button {
+	color: white;
+	font-size: 1.2rem;
+}
+
+.card-header button i {
+	color: white;
+}
+
+.card-body {
+	max-width: 60%;
+	text-transform: capitalize;
+}
+
+span.material-icons {
+	font-size: 25px;
+}
+
+.collapse {
+	display: flex;
+}
+
+.collapse i {
+	color: #666;
+}
+
+.collapse button {
+	font-size: 0.8rem;
+	padding: 0px;
+}
+
+#headButtons {
+	display: flex;
+	justify-content: space-between;
+}
+
+#headButtons button {
+	font-size: 0.7em;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+}
+
+.card-header {
+	padding: 5px 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-body {
+	padding: 10px 20px;
 }
