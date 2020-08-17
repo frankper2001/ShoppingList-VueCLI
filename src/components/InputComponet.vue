@@ -7,14 +7,13 @@
 				autocomplete="off"
 				class="form-control form-control-sm my-3"
 				placeholder="Write your Item here..."
-				v-model="item.text"
+				
 			/>
 			<div id="headButtons">
 				<button
 					type="submit"
 					class="btn btn-danger btn-sm mb-3 addToPending"
 					id="addToPending"
-					@click='addItem'
 				>
 					Add to Pending
 				</button>

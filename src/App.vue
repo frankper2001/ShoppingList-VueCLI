@@ -12,6 +12,7 @@ import HelloWorld from './components/HelloWorld.vue';
 import HeaderComp from './components/HeaderComponent.vue';
 import InputComp from './components/InputComponet.vue';
 import ListComp from './components/ListsComponent.vue'
+
 export default {
   name: 'App',
   components: {

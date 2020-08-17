@@ -36,10 +36,10 @@
 					class="collapse show  align-items-center py-0"
 					aria-labelledby="headingOne"
 					data-parent="#accordionList"
-					v-for="item in items"
+					
 				>
 					<div class="card-body float-left mr-auto pl-2">
-						<b>{{item.text}}</b>
+						<b>{{}}</b>
 					</div>
 					<button
 						type="button"
