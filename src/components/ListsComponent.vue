@@ -21,9 +21,10 @@
 					class="collapse show  align-items-center py-0"
 					aria-labelledby="headingOne"
 					data-parent="#accordionList"
+					v-for="tarea in tareas" :key="tarea"
 				>
 					<div class="card-body mr-auto ">
-						<h3 class="float-left  pl-1">esta es una frase de prueba</h3>
+						<h3 class="float-left  pl-1">{{ tarea.tarea }}</h3>
 					</div>
 					<div>
 						<i class="material-icons">arrow_drop_down</i>
@@ -114,23 +115,16 @@
 		name: 'ListComp',
 		data() {
 			return {
-				// item: {
-				// 	text: '',
-				// },
-				// items: [
-				// 	{
-				// 		text: 'producto 01',
-				// 	},
-				// ],
+				tareas: [
+					{tarea: 'producto 01', date: ''},
+					{tarea: 'producto 02', date: ''},
+					{tarea: 'producto 03', date: ''},
+					{tarea: 'producto 04', date: ''}
+				],
 			};
 		},
 		methods: {
-			// addItem() {
-			// 	let { text } = this.item;
-			// 	this.items.push({
-			// 		text,
-			// 	});
-			// },
+			
 		},
 	};
 </script>
