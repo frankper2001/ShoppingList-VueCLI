@@ -21,10 +21,13 @@
 					class="collapse show  align-items-center py-0"
 					aria-labelledby="headingOne"
 					data-parent="#accordionList"
-					v-for="tarea in tareas" :key="tarea"
+					v-for="(tarea, index) in tareas"
+					:key="index"
 				>
 					<div class="card-body mr-auto ">
+						<h5 class="float-left  pl-1">{{ index + 1 }}</h5>
 						<h3 class="float-left  pl-1">{{ tarea.tarea }}</h3>
+						<h5 class="float-left  pl-1">{{ tarea.date }}</h5>
 					</div>
 					<div>
 						<i class="material-icons">arrow_drop_down</i>
@@ -116,16 +119,14 @@
 		data() {
 			return {
 				tareas: [
-					{tarea: 'producto 01', date: ''},
-					{tarea: 'producto 02', date: ''},
-					{tarea: 'producto 03', date: ''},
-					{tarea: 'producto 04', date: ''}
+					{ tarea: 'producto 01', date: '' },
+					{ tarea: 'producto 02', date: '' },
+					{ tarea: 'producto 03', date: '' },
+					{ tarea: 'producto 04', date: '' },
 				],
 			};
 		},
-		methods: {
-			
-		},
+		methods: {},
 	};
 </script>
 
