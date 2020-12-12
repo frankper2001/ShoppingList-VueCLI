@@ -124,7 +124,7 @@
 					{ tarea: 'producto 03', date: '' },
 					{ tarea: 'producto 04', date: '' },
 					{ tarea: 'producto 05', date: '' },
-					{ tarea: 'producto 07', date: '' },
+					{ tarea: 'producto 08', date: '' },
 				],
 			};
 		},
