@@ -18,16 +18,16 @@
 				</div>
 				<div
 					id="collapseOne"
-					class="collapse show  align-items-center py-0"
+					class="collapse show align-items-center py-0"
 					aria-labelledby="headingOne"
 					data-parent="#accordionList"
 					v-for="(tarea, index) in tareas"
 					:key="index"
 				>
-					<div class="card-body mr-auto ">
-						<h5 class="float-left  pl-1">{{ index + 1 }}</h5>
-						<h3 class="float-left  pl-1">{{ tarea.tarea }}</h3>
-						<h5 class="float-left  pl-1">{{ tarea.date }}</h5>
+					<div class="card-body mr-auto">
+						<h5 class="float-left pl-1">{{ index + 1 }}</h5>
+						<h3 class="float-left pl-1">{{ tarea.tarea }}</h3>
+						<h5 class="float-left pl-1">{{ tarea.date }}</h5>
 					</div>
 					<div>
 						<i class="material-icons">arrow_drop_down</i>
@@ -58,12 +58,12 @@
 				</div>
 				<div
 					id="collapseTwo"
-					class="collapse show  align-items-center py-0"
+					class="collapse show align-items-center py-0"
 					aria-labelledby="headingTwo"
 					data-parent="#accordionList"
 				>
-					<div class="card-body mr-auto ">
-						<h3 class="float-left  pl-1">Item 2</h3>
+					<div class="card-body mr-auto">
+						<h3 class="float-left pl-1">Item 2</h3>
 					</div>
 					<div>
 						<i class="material-icons">arrow_drop_down</i>
@@ -94,12 +94,12 @@
 				</div>
 				<div
 					id="collapseThree"
-					class="collapse show  align-items-center py-0"
+					class="collapse show align-items-center py-0"
 					aria-labelledby="headingThree"
 					data-parent="#accordionList"
 				>
-					<div class="card-body mr-auto ">
-						<h3 class="float-left  pl-1">Item 3</h3>
+					<div class="card-body mr-auto">
+						<h3 class="float-left pl-1">Item 3</h3>
 					</div>
 					<div>
 						<i class="material-icons">arrow_drop_down</i>
@@ -124,7 +124,7 @@
 					{ tarea: 'producto 03', date: '' },
 					{ tarea: 'producto 04', date: '' },
 					{ tarea: 'producto 05', date: '' },
-					{ tarea: 'producto 06', date: '' }
+					{ tarea: 'producto 07', date: '' },
 				],
 			};
 		},
