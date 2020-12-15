@@ -2,7 +2,7 @@
 	<div>
 		<div class="accordion" id="accordionList">
 			<div class="card card-pendientes">
-				<div class="card-header bg-danger text-white py-0 pl-2" id="headingOne">
+				<div class="card-header text-white py-0 pl-2" id="headingOne">
 					<h2 class="mt-2">Pending</h2>
 
 					<button
@@ -25,8 +25,8 @@
 					:key="index"
 				>
 					<div class="card-body mr-auto">
-						<h5 class="float-left pl-1">{{ index + 1 }}</h5>
-						<h3 class="float-left pl-1">{{ tarea.tarea }}</h3>
+						<h5 class="float-left pl-1 pr-1">{{ index + 1 }}</h5>
+						<h5 class="float-left pl-1">{{ tarea.tarea }}</h5>
 						<h5 class="float-left pl-1">{{ tarea.date }}</h5>
 					</div>
 					<div>
@@ -39,10 +39,7 @@
 			</div>
 
 			<div class="card card-proceso">
-				<div
-					class="card-header bg-primary text-white py-0 pl-2"
-					id="headingTwo"
-				>
+				<div class="card-header text-white py-0 pl-2" id="headingTwo">
 					<h2 class="mt-2">In Progress</h2>
 
 					<button
@@ -63,7 +60,7 @@
 					data-parent="#accordionList"
 				>
 					<div class="card-body mr-auto">
-						<h3 class="float-left pl-1">Item 2</h3>
+						<h5 class="float-left pl-1">Item 2</h5>
 					</div>
 					<div>
 						<i class="material-icons">arrow_drop_down</i>
@@ -75,10 +72,7 @@
 			</div>
 
 			<div class="card card-completadas mb-5">
-				<div
-					class="card-header bg-success text-white py-0 pl-2"
-					id="headingThree"
-				>
+				<div class="card-header text-white py-0 pl-2" id="headingThree">
 					<h2 class="mt-2">Completed</h2>
 
 					<button
@@ -99,7 +93,7 @@
 					data-parent="#accordionList"
 				>
 					<div class="card-body mr-auto">
-						<h3 class="float-left pl-1">Item 3</h3>
+						<h5 class="float-left pl-1">Item 3</h5>
 					</div>
 					<div>
 						<i class="material-icons">arrow_drop_down</i>

@@ -1,6 +1,6 @@
 <template>
 	<header id="header-container">
-		<h3 id="titulo" class="float-left">Shopping List</h3>
+		<h3 id="titulo" class="float-left">ToDo List</h3>
 		<div class="language">
 			<img
 				class="selected"

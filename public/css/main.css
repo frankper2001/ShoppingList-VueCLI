@@ -1,3 +1,12 @@
+:root {
+	--blue: #1e90ff;
+	--white: #ffffff;
+	--colorA: #700961;
+	--colorB: #b80d57;
+	--colorC: #e03e36;
+	--colorD: #ff7c38;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -23,10 +32,9 @@ header img {
 	max-width: 70%;
 	padding: 5px 18px;
 	color: #444;
-
 }
 
-.card-body h3:first-letter {
+.card-body h5:first-letter {
 	text-transform: capitalize;
 }
 .material-icons {
@@ -43,7 +51,7 @@ header img {
 
 .collapse button {
 	font-size: 0.8rem;
-	padding: 0px;
+	padding: 10px;
 }
 
 #headButtons {
@@ -58,6 +66,8 @@ header img {
 	margin-left: 1px;
 	margin-right: 1px;
 	margin-bottom: 0px;
+	background-color: var(--colorA);
+	color:#ffffff;
 }
 
 .card-header {
@@ -77,9 +87,22 @@ header img {
 	text-align: center;
 	color: #2c3e50;
 	margin-top: 20px;
-  }
-  img {
+}
+
+img {
 	margin-bottom: 10px;
 	border-radius: 100px;
-	box-shadow: 4px 4px 6px 1px #999;
-  }
+	box-shadow: 2px 2px 6px 1px #999;
+}
+
+.card-pendientes .card-header {
+	background-color: var(--colorB);
+}
+
+.card-proceso .card-header {
+	background-color: var(--colorC);
+}
+
+.card-completadas .card-header {
+	background-color: var(--colorD);
+}
