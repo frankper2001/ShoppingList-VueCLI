@@ -8,16 +8,18 @@
 				src="../assets/images/flag-sp-01-mini.png"
 				alt="spanish"
 			/>
-			<img id="english" src="../assets/images/flag-uk-01-mini.png" alt="english" />
+			<img
+				id="english"
+				src="../assets/images/flag-uk-01-mini.png"
+				alt="english"
+			/>
 		</div>
-		
 	</header>
 </template>
 
 <script>
 	export default {
-		name: 'HeaderComp'
-		
+		name: 'HeaderComp',
 	};
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-	<div>
+	
 		<form id="formulario">
 			<input
 				type="text"
@@ -39,7 +39,7 @@
 				</button>
 			</div>
 		</form>
-	</div>
+	
 </template>
 
 <script>

@@ -30,15 +30,18 @@ header img {
 
 .card-body {
 	max-width: 70%;
-	padding: 5px 18px;
+	padding: 5px 5px;
 	color: #444;
+}
+.card-body h5 {
+	font-size: 0.9em;
 }
 
 .card-body h5:first-letter {
 	text-transform: capitalize;
 }
 .material-icons {
-	font-size: 25px;
+	font-size: 22px;
 }
 
 .collapse {
@@ -67,7 +70,7 @@ header img {
 	margin-right: 1px;
 	margin-bottom: 0px;
 	background-color: var(--colorA);
-	color:#ffffff;
+	color: #ffffff;
 }
 
 .card-header {
@@ -78,6 +81,7 @@ header img {
 
 .card-header h2 {
 	font-size: 20px;
+	text-shadow: 1px 1px 0 #222;
 }
 
 #app {
